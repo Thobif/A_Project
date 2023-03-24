@@ -55,7 +55,7 @@ class ResultPage extends StatelessWidget {
 }
 
 class FirstPage extends StatefulWidget {
-    final String userKey;
+  final String userKey;
   FirstPage({required this.userKey});
   @override
   _FirstPageState createState() => _FirstPageState();
@@ -77,7 +77,7 @@ class _FirstPageState extends State<FirstPage> {
             Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/query1_1.jpg'),
+                  image: AssetImage('assets/images/query1.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -121,7 +121,10 @@ class _FirstPageState extends State<FirstPage> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => SecondPage(name: name,userKey: widget.userKey,),
+                              builder: (context) => SecondPage(
+                                name: name,
+                                userKey: widget.userKey,
+                              ),
                             ),
                           );
                         } else {

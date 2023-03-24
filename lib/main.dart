@@ -5,7 +5,6 @@ import 'Login/OTPpage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'Edit/profile.dart';
-import 'home/nav.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +13,7 @@ void main() async {
 }
 
 class MyApp2 extends StatelessWidget {
-  const MyApp2({super.key});
+  const MyApp2({Key? key});
 
   // This widget is the root of your application.
   @override
@@ -23,9 +22,9 @@ class MyApp2 extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.green,
+        fontFamily: 'Manjari',
       ),
       home: SplashScreen(),
     );
   }
 }
-
