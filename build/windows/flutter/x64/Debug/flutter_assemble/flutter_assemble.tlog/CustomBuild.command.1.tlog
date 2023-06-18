@@ -1,6 +1,6 @@
-^C:\FLUTTERTEST\TT\BUILD\WINDOWS\CMAKEFILES\808FB783A52B40677DA4644F37542421\FLUTTER_WINDOWS.DLL.RULE
+^C:\FLUTTERTEST\A\BUILD\WINDOWS\CMAKEFILES\0F95B916224CE5BDB7AFC64873E5BABD\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\fluttertest\TT FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\fluttertest\TT\windows\flutter\ephemeral PROJECT_DIR=C:\fluttertest\TT FLUTTER_TARGET=C:\fluttertest\TT\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\fluttertest\TT\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\fluttertest\A FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\fluttertest\A\windows\flutter\ephemeral PROJECT_DIR=C:\fluttertest\A FLUTTER_TARGET=C:\fluttertest\A\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\fluttertest\A\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\FLUTTERTEST\TT\BUILD\WINDOWS\CMAKEFILES\00C644FE86245A4B8419C3CD3B78AF2A\FLUTTER_ASSEMBLE.RULE
+^C:\FLUTTERTEST\A\BUILD\WINDOWS\CMAKEFILES\2C6E41537F640932112433E0665E61FF\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\FLUTTERTEST\TT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^C:\FLUTTERTEST\A\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/fluttertest/TT/windows -BC:/fluttertest/TT/build/windows --check-stamp-file C:/fluttertest/TT/build/windows/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/fluttertest/A/windows -BC:/fluttertest/A/build/windows --check-stamp-file C:/fluttertest/A/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

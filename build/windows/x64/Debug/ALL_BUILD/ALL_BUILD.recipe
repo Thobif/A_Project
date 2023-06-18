@@ -2,16 +2,22 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\fluttertest\TT\build\windows\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\fluttertest\A\build\windows\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\fluttertest\TT\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
+      <FullPath>C:\fluttertest\A\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\fluttertest\TT\build\windows\runner\Debug\abc.exe</FullPath>
+      <FullPath>C:\fluttertest\A\build\windows\plugins\permission_handler_windows\Debug\permission_handler_windows_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\fluttertest\TT\build\windows\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\fluttertest\A\build\windows\plugins\smart_auth\Debug\smart_auth_plugin.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\fluttertest\A\build\windows\runner\Debug\abc.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\fluttertest\A\build\windows\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

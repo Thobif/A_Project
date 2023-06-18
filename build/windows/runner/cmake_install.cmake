@@ -1,4 +1,4 @@
-# Install script for directory: C:/fluttertest/TT/windows/runner
+# Install script for directory: C:/fluttertest/A/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

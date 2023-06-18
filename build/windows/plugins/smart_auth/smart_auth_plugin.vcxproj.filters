@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\fluttertest\A\windows\flutter\ephemeral\.plugin_symlinks\smart_auth\windows\smart_auth_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\fluttertest\A\windows\flutter\ephemeral\.plugin_symlinks\smart_auth\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B50F907-D056-3D51-838E-4B7EBAB62F74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
